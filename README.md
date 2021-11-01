@@ -3,7 +3,7 @@ You can use this program to paste things in your multiplayer videogames with cha
 ## REQUIREMENTS:
 - Python 3.7 or higher
 - keyboard (python -m pip install keyboard)
-- python file with quotes in an array (might change it later)
+- python file with quotes in an array
 
 ## OPTIONS:
 <dl>
