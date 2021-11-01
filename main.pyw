@@ -42,7 +42,6 @@ class PasteQuotes:
         await asyncio.sleep(1)
         while not self.interrupted and not self.no_more_quotes:
             segments = self.split_quote(self.select_quote())
-            print(f"{len(self.quotes) = }")
             for segment in segments:
                 await self.paste(segment)
             await asyncio.sleep(self.QUOTE_DELAY + randint(-self.DELTA, self.DELTA))
