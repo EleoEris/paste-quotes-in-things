@@ -12,7 +12,7 @@ async def paste(quote):
     await asyncio.sleep(.8)
 
 class PasteQuotes:
-    def __init__(self, paste_func = paste, quote_delay = 1, delta = 0, startup = 5, interrupt_key = 'j'):
+    def __init__(self, paste_func = paste, quote_delay = 60, delta = 30, startup = 20, interrupt_key = 'j'):
         self.QUOTE_DELAY = quote_delay
         self.DELTA = delta
         self.STARTUP = startup
