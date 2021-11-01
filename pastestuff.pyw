@@ -4,12 +4,11 @@ from quotes import quotes
 import asyncio
 
 async def paste(quote):
-    #press("shift+enter")
+    press("shift+enter")
     await asyncio.sleep(.1)
-    #write(quote)
-    print(quote)
+    write(quote)
     await asyncio.sleep(.1)
-    #press("enter")
+    press("enter")
     await asyncio.sleep(.8)
 
 class PasteQuotes:
