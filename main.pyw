@@ -1,4 +1,4 @@
-from keyboard import is_pressed, write, press_and_release as press, write
+from keyboard import is_pressed, write
 from random import randint
 from quotes import quotes
 import asyncio
