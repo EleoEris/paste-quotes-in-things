@@ -24,4 +24,4 @@ You can use this program to paste things in your multiplayer videogames with cha
 </dl>
 
 ## QUOTES ARRAY:
-It has to be a python array with quotes (name of file _quotes.py_). You might create an iterable with quotes, as long as it has __\_\_len\_\___ and a __\_\_getitem\_\___ that returns a string.
+It has to be an iterable quotes in a file named _quotes.py_. You might create an iterable with quotes, as long as it has __\_\_len\_\___ and a __\_\_getitem\_\___ that returns a string.
