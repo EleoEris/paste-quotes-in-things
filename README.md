@@ -18,6 +18,9 @@ You can use this program to paste things in your multiplayer videogames with cha
   
   <dt>startup</dt>
   <dd>how much time passes before the first quote is pasted</dd>
+  
+  <dt>ineterrupt_key</dt>
+  <dd>key that is pressed to quit the program</dd>
 </dl>
 
 ## QUOTES ARRAY:
